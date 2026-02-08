@@ -1,0 +1,442 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% /!\ À compiler avec XeLaTeX ou LuaLaTeX /!\ %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt]{article} % Format A4
+
+\usepackage{hyperref}
+
+\usepackage[utf8]{inputenc}
+
+\setlength{\parindent}{0pt} % Annule l'indentation
+
+\usepackage{geometry}
+\geometry{top=0.65cm, bottom=0.55cm, left=0.55cm, right=0.55cm} % Marges
+
+
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O} % Changer police d'écriture pour FreeSans
+
+
+\usepackage{titlesec}
+\titleformat{\section} % Format des sections
+{\bf \raggedright \fontsize{12pt}{10pt}\selectfont}
+{}
+{0pt}
+{\vspace{-14pt}}
+[\hrule \vspace{-8pt}]
+
+
+\date{} % Enlève l'affichage de la date
+
+\usepackage{graphicx} % Permet l'affichage d'image
+\usepackage{wrapfig} % Permet de placer 
+
+\usepackage{xcolor} % Permet de mettre le texte en couleur
+
+
+
+
+%%%%%%%%%%%%%%% DÉCLARATION DES NOUVELLES COMMANDES %%%%%%%%%%%%%%%
+
+
+\newcommand{\infodet}[3] % Donne le format des informations demandant beaucoup de détails 
+{
+• #2 \hfill \textcolor{gray}{#1}
+
+
+\raggedright \hspace{8pt}\parbox{546pt}{\textcolor{gray}{#3}}
+
+}
+
+
+\newcommand{\comp}[2] % Donne le format des informations sur les compétences
+{
+\underline{#1} : #2 \vspace{1pt}
+}
+
+
+\newcommand{\infos}[2] % Donne le format des informations diverses 
+{
+• #1 : {\textcolor{darkgray}{#2}}
+}
+
+
+\newcommand{\langue}[2] % Donne le format des informations sur les langues
+{
+• #1 {\textcolor{darkgray}{(#2)}}
+}
+%%%%%%%%%%%%%%% DÉCLARATION DES NOUVELLES COMMANDES %%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%% DÉBUT DU DOCUMENT %%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%% ENTÊTE %%%%%%%%%%%%%%%
+\begin{wrapfigure}[0]{r}{100pt}
+\vspace{-15pt}
+\includegraphics[scale=0.175]{sunshine.png}
+\end{wrapfigure}
+
+\fontsize{16pt}{0pt}\selectfont
+\bf{Jenny M. Michlich, AM}
+
+\normalfont
+\fontsize{12pt}{14pt}\selectfont
+Pittsburgh, PA, USA
+
+michlichj@husson.edu
+
+\href{https://www.linkedin.com/in/jenny-m-michlich-am-6050b6161/}{LinkedIn Profile}
+\\
+\href{https://orcid.org/0000-0002-4053-669X}{ORCID Profile}
+\\
+\href{https://github.com/jennymichlich}{Github Profile}
+\\
+
+
+
+\vspace{-15pt}
+%%%%%%%%%%%%%%% ENTÊTE %%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%% TITRES %%%%%%%%%%%%%%%
+\center \fontsize{24pt}{-20pt}\selectfont
+
+\textit{Curriculum vitae}
+
+\vspace{-10pt}
+\normalfont \center \fontsize{12pt}{0pt}\selectfont
+
+
+\vspace{2pt}
+%%%%%%%%%%%%%%% TITRES %%%%%%%%%%%%%%%
+\raggedright \fontsize{10.75pt}{5.5pt}\selectfont 
+
+\section*{Nonprofit Projects}
+\text{\textbf{Co-founder -- PeopleinAI: An AI for animal welfare directory:} I am co-founding a nonprofit organization addressing a critical gap at the intersection of ML/AI research and animal welfare. Through mentorship in the FuturekindAI fellowship run by Electric Sheep, my team and I developed a collaborative platform that enables the general public to actively participate in AI research benefiting farmed, wild, domesticated, and companion animals by helping researchers build datasets and address real-world challenges. As we pursue 501(c)(3) charitable status, I am leading the development of a free membership platform that democratizes AI research through project calls, discussion forums, and community engagement, advancing our belief that ethical and effective AI research requires meaningful public participation.}
+
+\section*{Teaching Summary}
+\text{Currently, Jenny Michlich is an adjunct instructor at the Community College of Allegheny County and Husson University, where they are teaching topics in the biological sciences and animal studies. They have previously served as a community-based instructor for middle school and high school students as well as a teaching assistant across the biological sciences and neurosciences. Their teaching philosophy bridges neuroscience research with inclusive, schema-based instruction designed to help diverse student populations build conceptual understanding.}
+
+\section*{Research Summary}
+
+\text{Jenny Michlich is a graduate student in the School of Complex Adaptive Systems at Arizona State University, where they are currently taking coursework towards a Master of Science in Complex Systems. Their applied project in this program will focus on building a multidimensional network graph to better understand the role of physiological signaling for intentional communication across vertebrate species. Previously, Jenny completed a Master of Arts in the Department of Human Evolutionary Biology at Harvard University, where they were performing research exploring the relationship between plasticity and adaptation in the structure and function of circuits for the control of facial gestures and vocalization under domestication. They are interested in neuroethology and understanding the sensory systems of nonhuman animals for communication. Broadly, they are interested in continuities between human and nonhuman animal systems of communication, along with the physiological and structural features that support these systems. More recently, they have started to bridge the gap between production and perception, with research focusing on facial perception of nonhuman animals as it relates to anthropomorphism and anthropodenialism.}
+
+\section*{Secondary Interests}
+
+\text{Evolutionary development and the comparative
+neuroscience of motor systems, perception of anthropomorphic features of facial expression and movement in nonhuman
+animals, discussions on topological and mechanistic explanations, vitalism and mechanistic frameworks, non-Darwinian
+theories of evolution, history of evolutionary theory, nonhuman animal linguistics, phonological patterns in nonhuman
+animal communicative systems, phonetic and phonological recursion, and the phonological-syntactical boundary, whistled languages and the evolution of whistling in nonhuman animals, computational phonology, multidimensional network analysis and causal network graphs, ontologies, and knowledge representation.}
+
+\section*{Primary research and teaching fields}\\
+
+\text{Evolutionary and comparative neuroscience, animal behavior, animal cognition, comparative psychology, ethology, comparative physiology, comparative anatomy.}
+
+\vspace{3pt}
+
+\section*{Master's Thesis, Harvard University, Department of Human Evolutionary Biology}
+\text{Evolved change in orofacial motor circuits under selection: Facial expression and vocal motor control under domestication in the Russian farm-fox model (May 2025).}
+
+\section*{Master's Applied Project, Arizona State University, School of Complex Adaptive Systems}
+\text{Multidimensional network analysis of the underlying drivers of vertebrate vocalization (May 2026).}
+
+\vspace{3pt}
+
+%%%%%%%%%%%%%%% FORMATION %%%%%%%%%%%%%%%
+\section*{Education}
+
+\infodet{2022-2026}
+{$Postgraduate$ $degree$}
+{Arizona State University, Master of Science in Complexity Science}
+
+\infodet{2023-2025}
+{$Postgraduate$ $degree$}
+{Harvard University, Master of Arts in Human Evolutionary Biology}
+
+
+\infodet{2023-2023}{$Postgraduate$ $certificate$}{Université Jean Monnet- Saint-Etienne, Graduate Certificate in Bioacoustics}
+
+
+\vspace{1pt}
+
+\infodet{2017-2021}
+{$Undergraduate$ $degree$}
+{University of Pittsburgh, Bachelor of Science in Neuroscience}
+
+\vspace{1pt}
+
+\infodet{2017-2021}
+{$Undergraduate$ $degree$}
+{University of Pittsburgh, Bachelor of Arts in Anthropology}
+
+\vspace{1pt}
+
+\infodet{2015-2017}
+{$Undergraduate$ $certificate$}
+{University of Colorado Colorado Springs, Undergraduate Certificate in Cognitive Archaeology}
+
+\vspace{1pt}
+
+\infodet{2015-2017}
+{$Undergraduate$ $degree$}
+{Community College of Allegheny County, Associate of Science in General Studies}
+%%%%%%%%%%%%%%% FORMATION %%%%%%%%%%%%%%%
+
+\\
+\end{tabular}
+%%%%%%%%%%%%%%% COMPÉTENCES TECHNIQUES %%%%%%%%%%%%%%%
+
+
+\section*{University Teaching Experience: Adjunct Teaching}\\
+
+\infos{Husson University, Online Adjunct Instructor of Animal Studies, 2026-Present}{Bangor, ME}
+
+
+\infos{Community College of Allegheny County, Adjunct Teaching Professor of Biology, 2025-Present}{Pittsburgh, PA}
+
+\infos{University of New England, Adjunct Teaching Professor of Biology, 2024-2024}{Biddeford, ME}
+
+\vspace{1}
+
+\section*{University Teaching Experience: Teaching Assistant}
+
+\infos{University of Pittsburgh, Undergraduate Teaching Assistant, 2020-2022} {Pittsburgh, PA}
+
+\section*{Community Teaching Experience: Lead Instructor and Co-instructor}
+
+\infos{Tremont School, Adjunct Instructor,  Independent project facilitation, 2026-Present}{Concord, MA}
+
+\infos{Tremont School, Rocha-Holliday Fellow in Neurodiversity, Project facilitation, 2024-2025}{Concord, MA}
+
+\infos{Boston Leadership Institute, Instructor, Summer 2023}{Waltham, MA}
+\\
+\section*{Courses taught: Lead Instructor}
+
+\infos{Comparative Animal Physiology, Fall 2024}{University of New England}
+
+\infos{Introduction to Biological Science, Summer 2025}{Community College of Allegheny County}
+
+\infos{Life Science, Fall 2025, Spring 2026}{Community College of Allegheny County}
+
+\infos{Pathophysiology, Fall 2025, Spring 2026}{Community College of Allegheny County}
+
+\infos{Introduction to Animal Studies, Spring 2026}{Husson University}
+
+\\
+
+\section*{Course Facilitation: Teaching Assistant}
+
+\infos{Brain and Behavior, Fall 2020, Spring 2021, Fall 2021}{University of Pittsburgh}
+\\
+\infos{Functional Neuroanatomy, Spring 2020}{University of Pittsburgh}
+\\
+\infos{Neuroscience of Communication, Spring 2021}{University of Pittsburgh}
+\\
+\infos{Evolution, Spring 2022}{University of Pittsburgh}
+
+\\
+
+\section*{Service}
+
+\infodet{2026-Present}{Faculty Contributor, Robert Richard Smith AI Design Lab, Community College of Allegheny County}
+
+\infodet{2025-2026}{Committee Member, Community Resource Fair, Community College of Allegheny County}
+
+\infodet{2023-Present}{Editorial Team Leader, Preprint Solicitation (Neuroscience), Royal Society Proceedings B}
+
+\infodet{2023-2024}{Graduate Student Co-chair, Diversity, Inclusion and Belonging Committee, HEB, Harvard University}
+
+\vspace{0pt}
+
+\infodet{2021-2023}{Editorial Assistant, Preprint Solicitation (Neuroscience), Royal Society Proceedings B}
+
+\vspace{0pt}
+
+\section*{Professional Research Experience}
+
+\infodet{2025-Present}
+{Lyon College, Animal Behavior and Cognition Lab, Visiting Researcher}
+
+\vspace{1pt}
+
+\infodet{2025-Present}
+{University of Pittsburgh-Johnston, Dahlin Avian Research Lab, Visiting Researcher}
+
+\vspace{1pt}
+
+
+\infodet{2022-2023}
+{Harvard University, Evolutionary Neuroscience Laboratory: Laboratory Technician}{}
+
+\vspace{1pt}
+
+\infodet{2022-2022}{Radboud University Nijmegen: Post-graduate Research Assistant}{}
+
+\vspace{1pt}
+
+\infodet{2020-2022}
+{University of Pittsburgh, Helou Laboratory: Research Technician II}{}
+
+\vspace{1pt}
+
+\infodet{2019-2020}
+{University of Pittsburgh, Williamson Laboratory: Research Technician II}{}
+
+\vspace{1}
+
+\infodet{2018-2022}
+{Harvard University, Evolutionary Neuroscience Laboratory: Visiting Researcher}{}
+
+\vspace{1}
+
+\infodet{2018-2020}{University of Pittsburgh, Helou Laboratory, Undergraduate Research Assistant}{}
+
+\vspace{1pt}
+
+\infodet{2018-2019}{Magee Womens Research Institute, Laboratory Animal Research Assistant}{}
+
+
+%%%%%%%%%%%%%%% RENSEIGNEMENTS COMPLÉMENTAIRES %%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%% EXPÉRIENCES PROFESSIONNELLES ET TECHNIQUES %%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%% EXPÉRIENCES PROFESSIONNELLES ET TECHNIQUES %%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%% TEACHING EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%% LANGUES %%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%% LANGUES %%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%% WORKSHOPS %%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%% WORKSHOPS %%%%%%%%%%%%%%%
+
+
+\section*{Posters}
+
+\infos{Michlich, JM. A multidimensional network analysis of the underlying drivers of vertebrate vocalization. (30 May 2026). Neural Mechanisms of Acoustic Communication, 2026; Gordon Research Conference}{(Abstract accepted).}
+
+\infos{Michlich, JM, Rogers-Flattery, C, Abdulla, M, Trut, L, Kukekova, A.V., Sherwood, C.C., Hecht, E.E. Neuroendocrine changes in the Russian fox-farm experiment: A stereological assessment of immunochemistry-labeled brain tissue. (13 November 2023). Society for Neuroscience Conference 2023}{(Abstract accepted).}
+\\
+\infos{Michlich, JM. (2022). Explorations of the Gombe Chimpanzee Archives: Phonetic and Phonological features of Chimpanzee (Pan Troglodytes) vocal communication over the course of development. IWoLP2022, Pittsburgh, PA.} {(Abstract accepted, Unable to present due to COVID).}
+\\
+\infos{Helou, LB, Michlich, JM, Bostan, AC. Cerebral cortical control of the posterior cricoarytenoid muscle in nonhuman primates. (11 November 2021). Society for Neuroscience Conference 2021}{(Abstract accepted; Virtual poster presentation).}
+\\
+\infos{*Michlich JM, *Fisher J, Helou LB . Brainstem-level variation in the descending motor pathway to the diaphragm. (25 March 2020). University of Pittsburgh Spring Undergraduate Research Fair; Pittsburgh, PA} {(Abstract accepted, canceled due to COVID-19).}
+
+
+%%%%%%%%%%%%%%% RENSEIGNEMENTS COMPLÉMENTAIRES %%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%% Publications %%%%%%%%%%%%%%%
+\section*{Publications}
+
+\infos{Michlich, J.M. and Sans Pinillos, A. (In press) Abductive reasoning and behavioral flexibility: reversal learning as a window into animal cognition}{Acta Ethologica.}
+\\
+
+\infos{Papadopoulos, D., Michlich, J.M., and Andrews, K. (2025) Removing the Glass Ceilings: Diverse Mechanisms for Social Cohesion}{Behavioral and Brain Sciences.}
+
+\vspace{1pt}
+
+\infos{Michlich, J.M. (2025) Immunohistochemistry protocol for visualization of the corticospinal, corticobulbar, corticorubral, and rubrospinal tracts}{Protocols.io.}
+
+\\
+\infos{Rogers Flattery, C.N., Abdulla, M., Barton, S.A. et al. (2023) The brain of the silver fox (Vulpes vulpes): a neuroanatomical reference of cell-stained histological and MRI images.} {Brain Structure and Function.}
+
+\\
+\infos{Michlich, J. (2020) Audition and Communication in Hominins: Evidence from the Fossil Record.}{The University of Michigan Undergraduate Journal of Anthropology.}
+\\
+\infos{Michlich, J. (2018). An analysis of semiotic and mimetic processes in Australopithecus afarensis.}{The Public Journal of Semiotics.}
+\\
+
+\section*{Monographs}
+
+\infos{Allen, C, Gold, E, Michlich, J, Sans Pinillos, A, and West, A. (Forthcoming January 2026) An Integrative approach to learning sets in nonhuman animals.}{Monograph under contract at Johns Hopkins University Press.}
+\\
+
+%%%%%%%%%%%%%%% Publications %%%%%%%%%%%%%%%
+\\
+\section*{Mentorship Programs}
+
+\infodet{2026-Present}{Graduate Student Mentor, DisabledinSTEM Mentorship Program}
+
+\infodet{2025-Present}{Graduate Student Mentee, Society for Neuroscience Peer Reviewer Mentorship Program}
+
+
+\infodet{2021-2023}{Undergraduate Student Mentee, International Society for Neuroethology Mentorship Program}
+
+\section*{Mentored Projects}
+
+\infodet{Internship in bioacoustics with portfolio project, 2025-2025}{Wren Cole, Tremont School}
+
+\infodet{Senior thesis training and supervision, 2023-2024}{Ryan Swardstrom, Harvard University}
+
+\infodet{Laboratory training and project supervision, 2020-2021}{Justina Fasano, University of Pittsburgh}
+
+\section*{Fellowships}
+
+\infodet{Electric Sheep} {Futurekind AI Fellowship, 2025-2025}
+
+\infodet{Tremont School} {Rocha-Holliday Fellowship in Neurodiversity, 2024-2025}
+
+\infodet{Harvard University, Graduate School of Arts and Sciences}{Graduate Prize Fellowship, 2023-2025}\\
+
+\section*{Awards and Funding}
+
+\infodet{Harvard University, Department of Human Evolutionary Biology}{Tesemacher Fund, Early Training Support, 2024-2025}
+
+
+\section*{Journal Contributions}
+
+\hspace{-9pt}
+\begin{tabular}{ l l }
+\langue{Brain and Behavioral Sciences}{Peer Reviewer}
+\\
+\end{tabular}
+
+
+\section*{Languages}
+
+\hspace{-9pt}
+\begin{tabular}{ l l }
+\langue{English}{Native} 
+& \langue{Spanish}{Beginner}
+\langue{German and French}{Translation}
+\\
+\end{tabular}
+
+\section*{Programs, Software, and Techniques}
+
+\hspace{-9pt}
+\begin{tabular}{ l l }
+\langue{Stereoinvestigator}{Intermediate} 
+& \langue{Neurolucida}{Intermediate}
+\langue{Google Suites}{Intermediate}
+\langue{Histology}{Intermediate}
+& \langue{Light Microscopy}{Intermediate}
+&\langue{Network Graphs}{Beginner}
+\langue{Python and R}{Intermediate}
+\\
+\end{tabular}
+
+
+\end{document}
