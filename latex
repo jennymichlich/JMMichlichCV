@@ -1,6 +1,6 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%% /!\ À compiler avec XeLaTeX ou LuaLaTeX /!\ %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% /!\ Latex code for CV, Overleaf /!\ %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper,11pt]{article} % Format A4
@@ -38,7 +38,7 @@
 
 
 
-%%%%%%%%%%%%%%% DÉCLARATION DES NOUVELLES COMMANDES %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Declaration of new commands %%%%%%%%%%%%%%%
 
 
 \newcommand{\infodet}[3] % Donne le format des informations demandant beaucoup de détails 
@@ -67,7 +67,7 @@
 {
 • #1 {\textcolor{darkgray}{(#2)}}
 }
-%%%%%%%%%%%%%%% DÉCLARATION DES NOUVELLES COMMANDES %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% End of declaration of new commands %%%%%%%%%%%%%%%
 
 
 
@@ -75,13 +75,13 @@
 
 
 
-%%%%%%%%%%%%%%% DÉBUT DU DOCUMENT %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Beginning of document %%%%%%%%%%%%%%%
 
 \begin{document}
 
 
 
-%%%%%%%%%%%%%%% ENTÊTE %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% Biographic information %%%%%%%%%%%%%%%
 \begin{wrapfigure}[0]{r}{100pt}
 \vspace{-15pt}
 \includegraphics[scale=0.175]{sunshine.png}
@@ -106,12 +106,12 @@ michlichj@husson.edu
 
 
 \vspace{-15pt}
-%%%%%%%%%%%%%%% ENTÊTE %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% End of biographic information %%%%%%%%%%%%%%%
 
 
 
 
-%%%%%%%%%%%%%%% TITRES %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% CV title %%%%%%%%%%%%%%%
 \center \fontsize{24pt}{-20pt}\selectfont
 
 \textit{Curriculum vitae}
@@ -121,7 +121,10 @@ michlichj@husson.edu
 
 
 \vspace{2pt}
-%%%%%%%%%%%%%%% TITRES %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% End of CV title %%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%% Beginning of position summaries %%%%%%%%%%%
+
 \raggedright \fontsize{10.75pt}{5.5pt}\selectfont 
 
 \section*{Nonprofit Projects}
@@ -156,7 +159,10 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 
 \vspace{3pt}
 
-%%%%%%%%%%%%%%% FORMATION %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%% End of position summaries %%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%% Educational background %%%%%%%%%%%%%%%
 \section*{Education}
 
 \infodet{2022-2026}
@@ -194,11 +200,15 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 \infodet{2015-2017}
 {$Undergraduate$ $degree$}
 {Community College of Allegheny County, Associate of Science in General Studies}
-%%%%%%%%%%%%%%% FORMATION %%%%%%%%%%%%%%%
+
 
 \\
 \end{tabular}
-%%%%%%%%%%%%%%% COMPÉTENCES TECHNIQUES %%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%% End of educational background %%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%% Work experiences %%%%%%%%%%%%%%%
 
 
 \section*{University Teaching Experience: Adjunct Teaching}\\
@@ -248,6 +258,10 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 \\
 \infos{Evolution, Spring 2022}{University of Pittsburgh}
 
+%%%%%%%%%%%%% End of work experiences %%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%% Service %%%%%%%%%%%%%%%%%%%%%
 \\
 
 \section*{Service}
@@ -265,6 +279,8 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 \infodet{2021-2023}{Editorial Assistant, Preprint Solicitation (Neuroscience), Royal Society Proceedings B}
 
 \vspace{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Professional Research Experience %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Professional Research Experience}
 
@@ -309,28 +325,10 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 
 \infodet{2018-2019}{Magee Womens Research Institute, Laboratory Animal Research Assistant}{}
 
-
-%%%%%%%%%%%%%%% RENSEIGNEMENTS COMPLÉMENTAIRES %%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%% End of Professional Research Experience %%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%%%%%%%%%%%%% EXPÉRIENCES PROFESSIONNELLES ET TECHNIQUES %%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%% EXPÉRIENCES PROFESSIONNELLES ET TECHNIQUES %%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%% TEACHING EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%% LANGUES %%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%% LANGUES %%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%% WORKSHOPS %%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%% WORKSHOPS %%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%% Academic publications %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section*{Posters}
 
@@ -345,9 +343,6 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 \infos{*Michlich JM, *Fisher J, Helou LB . Brainstem-level variation in the descending motor pathway to the diaphragm. (25 March 2020). University of Pittsburgh Spring Undergraduate Research Fair; Pittsburgh, PA} {(Abstract accepted, canceled due to COVID-19).}
 
 
-%%%%%%%%%%%%%%% RENSEIGNEMENTS COMPLÉMENTAIRES %%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%% Publications %%%%%%%%%%%%%%%
 \section*{Publications}
 
 \infos{Michlich, J.M. and Sans Pinillos, A. (In press) Abductive reasoning and behavioral flexibility: reversal learning as a window into animal cognition}{Acta Ethologica.}
@@ -373,8 +368,11 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 \infos{Allen, C, Gold, E, Michlich, J, Sans Pinillos, A, and West, A. (Forthcoming January 2026) An Integrative approach to learning sets in nonhuman animals.}{Monograph under contract at Johns Hopkins University Press.}
 \\
 
-%%%%%%%%%%%%%%% Publications %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% End of Academic Publications %%%%%%%%%%%%%%%
 \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Miscellaneous skills and experiences %%%%%%%%%%%%%%%%%%%%%%%%
+
 \section*{Mentorship Programs}
 
 \infodet{2026-Present}{Graduate Student Mentor, DisabledinSTEM Mentorship Program}
@@ -438,5 +436,6 @@ animal communicative systems, phonetic and phonological recursion, and the phono
 \\
 \end{tabular}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End of Miscellaneous service, skills, and experiences %%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
