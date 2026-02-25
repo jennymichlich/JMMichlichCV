@@ -1,4 +1,4 @@
-# Jenny Michich's CV
+# Jenny Michlich's CV
 
 <img src="Vocalmotor.png" alt="An example ciruit for vocal motor control in a primate model." width="400" height="400">
 
