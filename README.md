@@ -1,5 +1,7 @@
 # Jenny Michich's CV
 
+<img src="Vocalmotor.png" alt="An example ciruit for vocal motor control in a primate model." width="400" height="400">
+
 ## Jenny's biography
 
 Jenny Michlich, AM, completed her undergraduate degrees in neuroscience and anthropology at the University of Pittsburgh, where she studied under Colin Allen, PhD, a philosopher of comparative animal cognition. She then went on to complete a master’s degree in human evolutionary biology at Harvard University under Erin Hecht, PhD, where her thesis focused on the effects of domestication on motor control for facial expression and vocalization in the Russian farm-foxes. Currently, she is completing a second master’s degree in complexity science at Arizona State University, where she is building a multidimensional network graph to understand the role of physiological signaling in vertebrate vocalization. She is also an adjunct instructor at Husson University and the Community College of Allegheny County in animal studies and the biological sciences, where she hopes to help students learn more about the complexity of biological life in all of its forms.
